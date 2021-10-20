@@ -13,8 +13,8 @@ class Pengguna12200651 extends Model
     protected $returnType           = 'array';
     protected $protectFields        = true;
     protected $allowedFields        = ['nama', 'password'];
-    
-/**
+
+    /**
      * method untuk cek login dari table pengguna
      * berdasarkan nama dan password
      * @var String $user
